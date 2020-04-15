@@ -178,7 +178,8 @@ jersey_numbers = []
 return jersey_numbers
 end
 
-
+def player_stats(seacrch_name)
+  
     
 
 
