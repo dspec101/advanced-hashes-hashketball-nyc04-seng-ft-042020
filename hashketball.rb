@@ -179,7 +179,9 @@ return jersey_numbers
 end
 
 def player_stats(seacrch_name)
-  
+ game_hash.each do |team, team_info|
+  team_info[:players].each do |player, hash|
+    if player[:player_name]
     
 
 
