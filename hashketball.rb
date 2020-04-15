@@ -178,10 +178,11 @@ jersey_numbers = []
 return jersey_numbers
 end
 
-def player_stats(seacrch_name)
+def player_stats(search_name)
  game_hash.each do |team, team_info|
   team_info[:players].each do |player, hash|
-    if player[:player_name]
+    if player[:player_name] == search_name
+      
     
 
 
