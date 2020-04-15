@@ -183,6 +183,7 @@ def player_stats(search_name)
   team_info[:players].each do |player, hash|
     if player[:player_name] == search_name
       player.delete(:player_name)
+        
     
 
 
